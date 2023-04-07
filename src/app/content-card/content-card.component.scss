@@ -1,0 +1,46 @@
+.card-container{
+    display:inline-block;
+    width:100%;
+}
+.content{
+    display:block;
+    color: #000;
+    text-align:justify;
+    margin: 0.3%;
+    padding: 10px;
+    min-width: 500px;
+}
+.displayBlock{
+    display: block;
+}
+
+.content-Movie{
+    background: #46ff0aa1;
+}
+
+.content-Sitcom{
+    background: #46ff0aa1;
+}
+
+.content-Web-Series {
+    background: #46ff0aa1;
+}
+
+.content-no-type {
+    background: #46ff0aa1;
+}
+
+.content.highlight{
+    box-shadow: 10px 10px 5px 3px  #46ff0aa1;
+}
+
+
+@keyframes changeBack {
+    from {background-color: #ffff00d6;}
+    to {background-color: #5534dad6;}
+}
+
+:host {
+    margin-bottom: 10px;
+    display: block;
+}
