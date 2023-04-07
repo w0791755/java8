@@ -39,8 +39,8 @@ import {MatExpansionModule} from '@angular/material/expansion';
     FormsModule,
     HttpClientModule,
     HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {
-      dataEncapsulation: false,
-      delay: 1000,
+    dataEncapsulation: false,
+    delay: 1000,
     }),
     MatButtonModule,
     MatInputModule,

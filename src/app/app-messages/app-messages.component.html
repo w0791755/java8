@@ -1,1 +1,7 @@
-<p>app-messages works!</p>
+<div *ngIf="msgService.messages.length">
+    <div *ngFor='let message of msgService.messages'>
+        <div class="alert" ngClass="{{message.status ? 'alert-success':'alert-danger'}}" role="alert">
+            {{message.msg}}
+        </div>
+    </div>
+  </div>

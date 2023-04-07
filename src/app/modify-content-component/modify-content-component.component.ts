@@ -8,7 +8,7 @@ import { MessageService } from '../message.service';
 @Component({
   selector: 'app-modify-content-component',
   templateUrl: './modify-content-component.component.html',
-  styleUrls: ['./modify-content-component.component.css']
+  styleUrls: ['./modify-content-component.component.scss']
 })
 export class ModifyContentComponentComponent {
   @Output() newContentEvent: any = new EventEmitter<any>();
@@ -76,7 +76,7 @@ export class ModifyContentComponentComponent {
 @Component({
   selector: 'modify-content-component-dialog',
   templateUrl: 'modify-content-component-dialog.html',
-  styleUrls: ['./modify-content-component.component.css']
+  styleUrls: ['./modify-content-component.component.scss']
 })
 export class ModifyContentComponentDialog {
   action:string='';
